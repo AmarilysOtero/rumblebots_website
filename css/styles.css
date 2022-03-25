@@ -1,0 +1,205 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #125C13;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 5%;
+}
+
+hr {
+  /* border: dotted #373640 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto; */
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #fff;
+  border-width: 6px;
+  width: 100%;
+}
+h1{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 15%;
+  padding-left: 5%;
+}
+h2{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+h3{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 2.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.navbar{
+  padding: 0 0 0.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Download buttons */
+.apply-button{
+  margin: 5% 3% 15% 75%;
+}
+.mail-button{
+  margin: 5% 0 5% 60%;
+}
+
+.title-image{
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 0;
+  /* transform: rotate(25deg); */
+}
+.left-container{
+  padding-left: 5%;
+  padding-right: 5%
+}
+.middle-container{
+  text-align: right;
+  padding-top: 0;
+}
+.right-container{
+  padding: 3;
+  padding-top: 5.5%;
+  text-align: center;
+}
+#bio{
+  padding: 3% 25%;
+}
+.profile-box{
+  text-align: center;
+}
+/* #current-news{
+
+} */
+.legaz-news{
+  text-align: center;
+  padding: 5%;
+}
+.sumo-news{
+  text-align: center;
+  padding: 5%;
+}
+.calendar-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #393E46;
+  margin-bottom: 1.5rem;
+}
+.iconc{
+  margin-bottom: 3rem;
+  color: #393E46;
+}
+
+#gallery{
+  padding: 7% 5%;
+  text-align: center;
+  background-color: #393E46;
+  color: #fff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.sumo-image{
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.legaz-image{
+  width: 35%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.slide-image{
+  width: 25%;
+  margin: 50px;
+}
+/* .footer-link{
+  margin: 15% 3% 0 0;
+  background-color: blue;
+} */
+/* .left-container{
+  padding: 0 0 0 5%;
+} */
+/* .right-container{
+  padding: 0 0 0 5%;
+} */
+/* .contact-us{
+  padding: 0 0 0 55%;
+}
+.social-media{
+  padding: 0 0 0 75%;
+}
+.addres{
+  padding: 0 75% 0 0;
+} */
+/* p{
+  line-height: 2;
+}
+a:hover{
+  color: #373640;
+} */
+/* .bio{
+  width: 30%;
+  margin: auto;
+}
+.robots-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+} */
+/* .top-container{
+  background-color: #3E7C17;
+  position: relative;;
+  padding: -500px;
+} */
+/* .middle-container{
+  background-color: #393E46
+}
+.bottom-container{
+  background-color: #EEEEEE;
+  padding: 50px 0 20px;
+} */
+
+/* .copyright{
+  color: #393E46;
+  font-size: 0.75rem;
+  padding: 20px 0;
+} */
+/* .top-img{
+  position: inherit;
+  right: 300px;
+  top: 40px;
+} */
+/* .contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+} */
