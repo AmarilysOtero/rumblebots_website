@@ -5,10 +5,13 @@
   <meta charset="utf-8">
   <title>RUMblebots</title>
 
+  <link rel="icon" href="images/rum_ble_logo.png">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100;0,400;0,900;1,900&family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,900&family=Permanent+Marker&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@500&family=Rubik+Puddles&family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- CSS stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -37,35 +40,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">About Us</a>
+              <a class="nav-link" href="about_us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Meet the Team</a>
+              <a class="nav-link" href="team.html">Meet the Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">The Competitions</a>
+              <a class="nav-link" href="robots.html">Meet the Robots</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="competition.html">The Competitions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-      <hr>
+      <hr class="hr-nav">
       <!-- Title -->
 
       <div class="row">
 
         <div class="col-lg-6">
-          <h1>Join the UPRM Combact Robot team</h1>
+          <h1 class="fun-heading"> LET'S RUMBLE!</h1>
+          <h2 class="big-heading"> Join the UPRM Combat Robot team</h2>
           <button type="button" class="btn btn-dark btn-lg apply-button">Apply! <i class="fa-solid fa-arrow-pointer"></i></button>
         </div>
 
         <div class="col-md-6">
-          <img class="title-image" src="images/uprm_group.jpg" alt="team">
+          <img class="title-image" src="images/group.jpg" alt="team">
         </div>
 
       </div>
@@ -79,44 +86,48 @@
         combat robots of varying weights
         to represent the UPRM and Puerto Rico
         at the Nationals Robotics League and other robotics competitions.</p>
+      <hr class="bio-hr">
     </div>
-    <hr>
   </section>
 
   <!-- Current News -->
   <section id="current-news">
     <div class="container-fluid">
       <div class="row">
-        <div class="legaz-news col-lg-4">
+        <div class="legaz-news col-lg-6">
+          <h3 class="mid-body12">12-Pound</h3>
+          <em class="name">LegaZ</em>
           <img class="legaz-image" src="images/LegaZ_side.JPG" alt="zumo-profile">
-          <em>LegaZ</em>
-          <h3>12-Pound</h3>
-          <p> A 12-pound modular combat robot
+          <p class="mid-body"> A 12-pound modular combat robot
             to represent the team and university in
             Ecuador’s Robot Games Zero Latitude
             international robotics competition.</p>
-          <p> Our members have the opportunity to design,
+          <p class="mid-body"> Our members have the opportunity to design,
             analize, manufacture, finance and operate
             the robots. </p>
-            <i class="icon fa-solid fa-gears fa-4x"></i>
-        </div>
-        <div class="sumo-news col-lg-4">
-          <img class="sumo-image" src="images/PrimerZumo_Mario.jpeg" alt="zumo-profile">
-          <em>Mario</em>
-          <h3>Zumo Bot</h3>
-          <p> Robot-sumo is a sport in which two robots
-            attempt to push each other out of a circle
-            called Dohyo, and much like the traditional
-            Japanese martial art of Sumo wrestling.</p>
-          <p> Our team is currently building our own autonomus
-            robot that consists of making a 500 grams robot
-            that can face off against another one of its kind on a
-            specified field of combat. </p>
+          <i class="icon fa-solid fa-gears fa-4x"></i>
+          <!-- </div> -->
+          <!-- <div class="sumo-news col-lg-4"> -->
+          <div class="sumo-news">
+            <h3 class="mid-body">Zumo Bot</h3>
+            <img class="sumo-image" src="images/PrimerZumo_Mario.jpeg" alt="zumo-profile">
+            <em class="name">Mario</em>
+            <p class="mid-body"> Robot-sumo is a sport in which two robots
+              attempt to push each other out of a circle
+              called Dohyo, and much like the traditional
+              Japanese martial art of Sumo wrestling.</p>
+            <p class="mid-body"> Our team is currently building our own autonomus
+              robot that consists of making a 500 grams robot
+              that can face off against another one of its kind on a
+              specified field of combat. </p>
             <i class="icon fa-solid fa-laptop-code fa-4x"></i>
+          </div>
         </div>
-        <div class="calendar-box col-lg-4">
-          <h3>Calendar</h3>
-          <i class="iconc fa-solid fa-calendar-days fa-10x"></i>
+        <div class="calendar-box col-lg-6">
+          <h3>Calendar Events</h3>
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%237CB342&ctz=America%2FPuerto_Rico&src=Y19wam1uNzFscTFkcXBsbjUwb2c3cnZic2c0OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dXByLmVkdV84djdxZWxlcGhrczFxazVtN2UwbWVwN3Bxb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33&color=%234285F4"
+            style="border:solid 1px #777" width="600" height="700" frameborder="0" scrolling="no"></iframe> <!-- <i class="iconc fa-solid fa-calendar-days fa-10x"></i> -->
         </div>
         <!-- <h3>Meet our Robots</h3>
     <ul>
@@ -145,16 +156,36 @@
         <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="slide-image"src="images/Zumo.jpeg" class="d-block w-100" alt="...">
+          <img class="slide-image" src="images/Zumo.jpeg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
           <img class="slide-image" src="images/Zumo01.jpeg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
           <img class="slide-image" src="images/sumo_top.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/LegaZ_side.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/Body Front View.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/Body Top View.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/Top View with walls.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/Initial_components.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel" data-bs-slide="prev">
@@ -184,17 +215,22 @@
           <p class="copyright">© 2022 RUMblebots Special Project.</p>
         </div>
         <div class="middle-container col-lg-4">
-          <button type="button" class="btn btn-dark mail-button" href="mailto:rumblebots.crome@gmail.com"><i class="fa-solid fa-envelope"></i> Mail us </button>
+          <!-- <form method="post"> -->
+          <!-- <input type="button" class="btn btn-dark mail-button" value="Mail us" onclick="sendMail()">
+          </form> -->
+          <a class="btn btn-dark mail-button" href="mailto:rumblebots.crome@gmail.com"><i class="fa-solid fa-envelope"></i> Mail us </a>
+          <!-- <button type="button" class="btn btn-dark mail-button" href="contact_us.html"><i class="fa-solid fa-envelope"></i> Mail us </button> -->
           <h6> rumblebots.crome@gmail.com </h6>
         </div>
         <div class="right-container col-lg-4">
           <a class="footer-link" href="https://www.linkedin.com/company/rumblebots/about/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
           <a class="footer-link" href="https://www.facebook.com/UprmRumblebots/"><i class="fa-brands fa-facebook-square"></i> Facebook</a>
-          <a class="footer-link" href="https://Instagram.com/"><i class="fa-brands fa-instagram-square"></i> Instagram</a>
+          <a class="footer-link" href="https://www.instagram.com/rumblebotsuprm/"><i class="fa-brands fa-instagram-square"></i> Instagram</a>
         </div>
       </div>
     </div>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js" charset="utf-8"></script>
   </footer>
 </body>
 
