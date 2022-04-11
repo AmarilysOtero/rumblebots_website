@@ -41,6 +41,18 @@
   /* transform: rotate(25deg); */
 }
 
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 75%;
+    border-radius: 100%;
+    position: static;
+  }
+}
+
 body {
   font-family: 'Roboto', sans-serif
 }
@@ -143,8 +155,8 @@ p {
 
 .mid-body12 {
   color: #8f8f8f;
-padding-left: 72px;
-margin-bottom: 0.5rem;
+  padding-left: 72px;
+  margin-bottom: 0.5rem;
 }
 
 .mid-body {
@@ -216,7 +228,6 @@ margin-bottom: 0.5rem;
   padding: 3% 15% 7%;
   text-align: center;
   color: #393E46;
-
 }
 
 .deparments {
@@ -225,11 +236,12 @@ margin-bottom: 0.5rem;
   color: #393E46;
 }
 
-.comp2{
+.comp2 {
   padding: 3% 0 7%;
   text-align: center;
   color: #393E46;
 }
+
 .about-pic1 {
   margin: 15% 15%;
 }
@@ -254,13 +266,12 @@ margin-bottom: 0.5rem;
   text-align: center;
   padding: 3% 15% 0;
   font-size: 1.5rem;
-
 }
-.comp-content{
+
+.comp-content {
   padding: 3% 15% 0;
   font-size: 1.5rem;
   text-align: center;
-
 }
 
 .dept-list {
@@ -268,7 +279,8 @@ margin-bottom: 0.5rem;
   color: #8f8f8f;
   font-size: 1.5rem;
 }
-.req-list{
+
+.req-list {
   padding-left: 25%;
   color: #8f8f8f;
   font-size: 1.5rem;
@@ -337,12 +349,14 @@ margin-bottom: 0.5rem;
   border-radius: 100%;
   margin: 20px;
 }
-.c-image{
+
+.c-image {
   width: 35%;
   border-radius: 100%;
   margin: 76px;
 }
-.c1-image{
+
+.c1-image {
   width: 35%;
   border-radius: 100%;
   margin: 76px;
