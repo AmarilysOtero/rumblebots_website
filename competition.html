@@ -48,7 +48,16 @@
               <a class="nav-link" href="team.html">Meet the Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="robots.html">Meet the Robots</a>
+              <div class="dropdown">
+                <button class="dropbtn" id="btn2" onclick="myFunction()">Meet the Robots
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="robots.html">LegaZ</a>
+                  <a href="robots_z.html">Zumo</a>
+                  <a href="others_robots.html">Others</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="competition.html">The Competitions</a>
@@ -84,7 +93,8 @@
           <h2 class="deparments">Robot Ruckus</h2>
           <p class="comp-content"> This competition takes place in Orlando, Florida, during the month of November.
             Robot Ruckus is part of Maker Faire and is the largest open heavyweight combat robot
-            competition in the United States. The team would have an opportunity to participate
+            competition in the United States. </p>
+            <p class="comp-content">The team would have an opportunity to participate
             in 12 pound weight categories, as well as having weekend access to the
             overall Maker Faire event, giving the team’s members a chance to network with other
             engineers and makers alike.</p>
@@ -99,19 +109,24 @@
       <div class="row">
         <div class="col-lg-6">
           <h3 class="comp2">Ecuador’s Robot Games Zero Latitude </h3>
-          <p class="comp-content">Due to covid restrictions in the country, this competitionis on hold.
-            The team is currently in search of an adequate competition.
-            Also, one of RUMblebots ambitions is to introduce combat robotics
-            in Puerto Rico and create a competition hosted in the University
-            of Puerto Rico, Mayaguez Campus. The team believes that a sumo bot
+          <p class="comp-content">Due to covid restrictions in the country, this competition is on hold.
+            The team is currently in search of an adequate competition.</p>
+            <p class="comp-content">The team believes that a sumo bot
             competition would be an ideal first step to introduce compact robotics
-            in the island for high school and college students.
+            in the island for high school and college students.</p>
           </p>
         </div>
         <div class="col-lg-6">
-          <img class="sumo-image" src="images/PrimerZumo_Mario.jpeg" alt="zumo-profile">
-          <img class="about-pic1" src="images/rum_upr_web.jpg" alt="">
-          <img class="sumo-image" src="images/Zumo01.jpeg" alt="zumo-profile">
+          <img class="c2-image" src="images/zero_latitud.jpg" alt="zumo-profile">
+
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="s-image" src="images/sumo_top1.jpg" alt="zumo-profile">
+            </div>
+            <div class="col-lg-6">
+              <img class="s-image" src="images/sumo_Ring.PNG" alt="zumo-profile">
+            </div>
+          </div>
 
         </div>
       </div>
@@ -149,6 +164,7 @@
     </div>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="contact.js" charset="utf-8"></script>
+    <script src="robots.js"></script>
   </footer>
 </body>
 
