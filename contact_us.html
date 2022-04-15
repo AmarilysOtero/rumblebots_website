@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Meet The Team</title>
-  <link rel="icon" href="images/rum_ble_logo.png">
+  <link rel="icon" href="images/logos/rum_ble_logo.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <img src="images/rum_ble_logo.png " alt="logo" width="50" height="50">
+        <img src="images/logos/rum_ble_logo.png " alt="logo" width="50" height="50">
         <a class="navbar-brand" href=""> RUMblebots</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,16 @@
               <a class="nav-link" href="team.html">Meet the Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="robots.html">Meet the Robots</a>
+              <div class="dropdown">
+                <button class="dropbtn" id="btn2" onclick="myFunction()">Meet the Robots
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="robots.html">LegaZ</a>
+                  <a href="robots_z.html">Sumo</a>
+                  <a href="others_robots.html">Others</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="competition.html">The Competitions</a>
@@ -89,17 +98,24 @@
 <!-- Social media -->
 <section id = "media">
   <div class="social-media">
-    <button type="button" class="btn btn-success btn-lg fb-button" href="https://www.facebook.com/UprmRumblebots/"><i class="fa-brands fa-facebook-f "></i>  Like our page on Facebook </button>
+    <button type="button" id="btn4" class="btn btn-success btn-lg" onclick="goToFB()"><i class="fa-brands fa-facebook-f "></i>  Like our page on Facebook </button>
   </div>
   <div class="social-media">
-    <button type="button" class="btn btn-success btn-lg fb-button" href="https://www.instagram.com/rumblebotsuprm/"><i class="fa-brands fa-instagram"></i>  Follow us on Instagram </button>
+    <button type="button" id="btn5" class="btn btn-success btn-lg" onclick="goToInsta()"><i class="fa-brands fa-instagram"></i>  Follow us on Instagram </button>
   </div>
   <div class="social-media">
-    <button type="button" class="btn btn-success btn-lg fb-button" href="https://twitter.com/rumblebotsuprm?t=-9WSAw4U3-u040FYiTgSUw&s=08"><i class="fa-brands fa-twitter"></i> Go follow our twits </button>
+    <button type="button" id="btn6" class="btn btn-success btn-lg" onclick="goToTwitter()"><i class="fa-brands fa-twitter"></i> Go follow our twits </button>
   </div>
   <div class="social-media">
-    <button type="button" class="btn btn-success btn-lg fb-button" href="https://www.linkedin.com/company/rumblebots/about/"><i class="fa-brands fa-linkedin"></i>  Let's connect professionaly on LinkedIn </button>
+    <button type="button" id="btn7" class="btn btn-success btn-lg" onclick="goToLI()"><i class="fa-brands fa-linkedin"></i>  Let's connect professionaly on LinkedIn </button>
   </div>
+</section>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="contact.js" charset="utf-8"></script>
+  <script src="robots.js"></script>
+  <script src="apply.js"></script>
+  <script src="media.js"></script>
 </body>
 
 </html>
