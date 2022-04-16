@@ -371,11 +371,13 @@ p {
   padding: 3% 5% 7%;
   color: #8f8f8f;
 }
+
 .captain-email {
   text-align: center;
   color: #8f8f8f;
 }
-.member-email{
+
+.member-email {
   text-align: center;
   color: #8f8f8f;
 }
@@ -391,14 +393,15 @@ p {
   padding: 0 8% 0 6%;
   color: #8f8f8f;
 }
+
 .memberShort-data {
   text-align: center;
   padding: 0 8% 15% 6%;
   color: #8f8f8f;
 }
+
 .member-link {
   padding: 3% 36% 3%;
-
 }
 
 .member-linkL {
@@ -463,12 +466,12 @@ p {
   border-radius: 100%;
   margin: 40px;
 }
+
 .s-image {
   width: 75%;
   border-radius: 100%;
   /* margin: 40px; */
   margin-top: 40px;
-
 }
 
 .c1-image {
@@ -476,6 +479,7 @@ p {
   border-radius: 100%;
   margin-left: 230px;
 }
+
 .c2-image {
   width: 35%;
   border-radius: 100%;
@@ -543,28 +547,29 @@ p {
 .gallery {
   border: 1px solid #ccc;
   text-align: center;
+  padding-bottom: 5%;
 }
 
-div.gallery:hover {
+.gallery:hover {
   border: 1px solid #777;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 10px;
   float: left;
   width: 24.99999%;
 }
@@ -582,10 +587,22 @@ div.desc {
   }
 }
 
+.box-content {
+  padding: 5%;
+}
+
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
+}
+
+#slogan {
+  text-align: center;
+  background-color: #8f8f8f;
+  padding: 5% 20% 5%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* .footer-link{
