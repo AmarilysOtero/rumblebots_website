@@ -38,14 +38,12 @@
   padding-bottom: 3%;
   padding-left: 0;
   border-radius: 20%; */
-  /* transform: rotate(25deg); */
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 4px;
   padding: 5px;
   border: 1px solid #ddd;
   margin-top: 10%;
-  /* width: 150px; */
 }
 
 /* @media only screen and (min-width: 768px) {
@@ -53,16 +51,17 @@
     width: 25%;
   }
 } */
-@media(max-width: 1028px) {
-  #title {
+@media(max-width: 1060px) {
+  #title{
     text-align: center;
   }
 
-  /* .title-image {
-    width: 75%;
+  .title-image {
+    /* width: 75%;
     border-radius: 100%;
-    padding: 0;
-  } */
+    padding: 0; */
+    position: static;
+  }
 }
 
 /* @media(min-width: 768px) {
@@ -71,7 +70,8 @@
       width: 100%;
   }
 } */
-/* For mobile phones: */
+
+/* For mobile phones: 1216 navbar, 1224 img-title go down, 1060 make it one column*/
 [class*="title-image"] {
   width: 100%;
 }
@@ -85,11 +85,6 @@ body {
   border-bottom: none;
   width: 50%;
   margin: 30px auto;
-  /* border-style: none;
-  border-top-style: dotted;
-  border-color: #fff;
-  border-width: 6px;
-  width: 5%; */
 }
 
 .hr-nav {
@@ -318,12 +313,13 @@ p {
 }
 
 .about-pic1 {
-  margin: 15% 15%;
+  margin: 15% 5%;
+  width: 90%;
 }
 
 .about-pic2 {
   width: 95%;
-  margin: 18% 2%;
+  margin: 18% 4%;
 }
 
 .about-pic3 {
@@ -432,7 +428,6 @@ p {
   padding: 7% 15%;
   text-align: center;
   background-color: #EEEEEE;
-  /* background-image: url("bg1.jpg"); */
   background-image: url('images/about-bg.jpg');
   color: #8f8f8f;
 }
@@ -477,7 +472,6 @@ p {
 .s-image {
   width: 75%;
   border-radius: 100%;
-  /* margin: 40px; */
   margin-top: 40px;
 }
 
