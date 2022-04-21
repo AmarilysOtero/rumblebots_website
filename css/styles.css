@@ -362,13 +362,27 @@ p {
   margin: 5% 27%;
   width: 45%;
 }
-
+.member-pic2{
+  border-radius: 100%;
+  margin: 5% 27%;
+  margin-top: 15%;
+  width: 45%;
+}
+.marketing-pic{
+  border-radius: 100%;
+  margin: 5% 36%;
+  width: 30%;
+}
 .captain {
   text-align: center;
   padding: 3% 15% 7%;
   color: #8f8f8f;
 }
-
+.marketing {
+  text-align: center;
+  padding: 3% 15% 5%;
+  color: #8f8f8f;
+}
 .member {
   text-align: center;
   padding: 3% 5% 7%;
@@ -399,7 +413,12 @@ p {
 
 .memberShort-data {
   text-align: center;
-  padding: 0 8% 15% 6%;
+  padding: 0 9% 6% 9%;
+  color: #8f8f8f;
+}
+.marketing-data{
+  text-align: center;
+  padding: 0 20% 0 20%;
   color: #8f8f8f;
 }
 
@@ -409,6 +428,9 @@ p {
 
 .member-linkL {
   padding: 5% 38% 3%
+}
+.marketing-member-link{
+    padding: 0 44% 0;
 }
 
 .md {
