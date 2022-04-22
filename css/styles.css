@@ -401,7 +401,7 @@ p {
 
 .captain-data {
   text-align: center;
-  padding: 0 8% 0 6%;
+  padding: 0 22% 0 22%;
   color: #8f8f8f;
 }
 
@@ -421,7 +421,9 @@ p {
   padding: 0 20% 0 20%;
   color: #8f8f8f;
 }
-
+.captain-link {
+  padding: 3% 44% 3%
+}
 .member-link {
   padding: 3% 36% 3%;
 }
