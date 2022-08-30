@@ -1,0 +1,656 @@
+/* 1. Tittle */
+
+/* "Let's RUMble" */
+.fun-heading {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.5rem;
+  padding: 10% 10% 0;
+  margin: 3% 0 5%;
+}
+/* This heading is use for the current promo "Apply Now!" */
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-top: 3%;
+  padding-left: 5%;
+  margin: 5%;
+}
+/* Tittle "About Us"  */
+.about-heading {
+  text-align: center;
+  padding: 7% 15% 7%;
+}
+
+#title {
+  background-color: #125C13;
+  color: #EEEEEE;
+}
+
+/* This is the container that keeps the flow of the webpage and the layout, it can be seen as a canvas  */
+.container-fluid {
+  padding: 3% 5%;
+}
+
+/* This container holds the home image */
+.title-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin-top: 10%;
+}
+
+/* Responsive for computers */
+@media(max-width: 1060px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    /* width: 75%;
+    border-radius: 100%;
+    padding: 0; */
+    position: static;
+  }
+}
+@media (max-width: 995px) {
+  .c-image {
+    position: static;
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .c1-image {
+    position: static;
+    width: 50%;
+  }
+
+  .c2-image {
+    position: static;
+  }
+
+  .s-image {
+    position: static;
+    width: 50%;
+  }
+}
+
+/* Responsive for mobile phones: 1216 navbar, 1224 img-title go down, 1060 make it one column*/
+[class*="title-image"] {
+  width: 100%;
+}
+/* @media only screen and (max-width: 516px)  {
+  .left-container{width: 60%;}
+} */
+
+/* 2. Typography */
+
+body {
+  font-family: 'Roboto', sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Design elements: Horizontal rule */
+.bio-hr {
+  border: dotted #373640 6px;
+  border-bottom: none;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.hr-nav {
+  border: none;
+  width: 99%;
+  /* margin: 100px auto; */
+}
+
+
+
+/* 3. Navagation bar */
+.navbar {
+  padding: 0 0 0.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #EEEEEE;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #125C13;
+  color: #EEEEEE;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.navbar a:hover, .dropdown:hover .dropbtn:hover, .dropbtn:focus {
+  background-color: #8f8f8f;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+/* Show the dropdown menu */
+.show {
+  display: block;
+}
+
+.contact-heading {
+  text-align: center;
+  padding: 3% 15% 7%;
+  color: #8f8f8f;
+}
+
+.deparment {
+  padding-bottom: 5%;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.active {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* 4. Buttons */
+.apply-button {
+  margin: 5% 3% 10% 73%;
+}
+
+.mail-button {
+  margin: 5% 0 5% 60%;
+}
+
+/* 5. Containers */ 
+
+/* Middle Section */
+#bio {
+  padding: 3% 10% 0;
+}
+
+.profile-box {
+  text-align: center;
+  padding: 3% 15%;
+  font-size: 2.5rem;
+}
+
+#current-news {
+  color: #8f8f8f;
+}
+
+.mid-body12 {
+  color: #8f8f8f;
+  padding-left: 72px;
+  margin-bottom: 0.5rem;
+}
+
+.mid-body {
+  color: #8f8f8f;
+}
+
+.name {
+  color: #3E7C17;
+}
+
+.legaz-news {
+  text-align: center;
+  padding: 5%;
+  font-size: 1.5rem;
+}
+
+.sumo-news {
+  text-align: center;
+  padding: 5%;
+}
+
+.calendar-box {
+  text-align: center;
+  padding: 0;
+  padding-top: 15%;
+}
+
+.icon {
+  color: #3E7C17;
+  margin-bottom: 1.5rem;
+}
+
+.iconc {
+  margin-bottom: 3rem;
+  color: #3E7C17;
+}
+
+.vision {
+  text-align: center;
+  padding: 3% 15% 7%;
+  color: #393E46;
+}
+
+.mision {
+  text-align: center;
+  padding: 3% 15% 7%;
+  color: #393E46;
+}
+
+.mision-content {
+  text-align: center;
+  padding: 3% 10% 0;
+  font-size: 1.5rem;
+}
+
+.vision-content {
+  text-align: center;
+  padding: 3% 12% 0;
+  font-size: 1.5rem;
+}
+
+.img-logo {
+  width: 25%;
+  margin: 5% 40%;
+  border-radius: 100%;
+}
+
+.history {
+  padding: 3% 15% 7%;
+  text-align: center;
+  color: #393E46;
+}
+
+.deparments {
+  padding: 3% 15% 7%;
+  text-align: center;
+  color: #393E46;
+}
+
+.comp2 {
+  padding: 3% 0 7%;
+  text-align: center;
+  color: #393E46;
+}
+
+.about-pic1 {
+  margin: 15% 5%;
+  width: 90%;
+}
+
+.about-pic2 {
+  width: 95%;
+  margin: 18% 4%;
+}
+
+.about-pic3 {
+  width: 45%;
+  margin: 5% 25%;
+}
+
+.history-content {
+  text-align: center;
+  padding: 3% 15% 0;
+  font-size: 1.5rem;
+}
+
+.dept-content {
+  text-align: center;
+  padding: 3% 15% 0;
+  font-size: 1.5rem;
+}
+
+.comp-content {
+  padding: 3% 8% 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.dept-list {
+  padding-left: 7%;
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+.req-list {
+  padding-left: 25%;
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+.member-pic {
+  border-radius: 100%;
+  margin: 5% 27%;
+  width: 45%;
+}
+
+.member-pic2 {
+  border-radius: 100%;
+  margin: 5% 27%;
+  margin-top: 15%;
+  width: 45%;
+}
+
+.marketing-pic {
+  border-radius: 100%;
+  margin: 5% 36%;
+  width: 30%;
+}
+
+.captain {
+  text-align: center;
+  padding: 3% 15% 7%;
+  color: #8f8f8f;
+}
+
+.marketing {
+  text-align: center;
+  padding: 3% 15% 5%;
+  color: #8f8f8f;
+}
+
+.member {
+  text-align: center;
+  padding: 3% 5% 7%;
+  color: #8f8f8f;
+}
+
+.captain-email {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.member-email {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.captain-data {
+  text-align: center;
+  padding: 0 22% 0 22%;
+  color: #8f8f8f;
+}
+
+.member-data {
+  text-align: center;
+  padding: 0 8% 0 6%;
+  color: #8f8f8f;
+}
+
+.memberShort-data {
+  text-align: center;
+  padding: 0 9% 6% 9%;
+  color: #8f8f8f;
+}
+
+.marketing-data {
+  text-align: center;
+  padding: 0 20% 0 20%;
+  color: #8f8f8f;
+}
+
+.captain-link {
+  padding: 3% 44% 3%
+}
+
+.member-link {
+  padding: 3% 36% 3%;
+}
+
+.member-linkL {
+  padding: 5% 38% 3%
+}
+
+.marketing-member-link {
+  padding: 0 44% 0;
+}
+
+.md {
+  color: #8f8f8f;
+  text-align: center;
+  padding: 3% 15% 7%;
+}
+
+.e {
+  color: #8f8f8f;
+  text-align: center;
+  padding: 3% 15% 7%;
+}
+
+/* Gallery Section */
+#gallery {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #EEEEEE;
+  background-image: url('images/about-bg.jpg');
+  color: #8f8f8f;
+}
+
+#gallery-carousel {
+  background-image: url('images/about-bg.jpg');
+}
+
+.robot-title {
+  padding-bottom: 5%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.robot-name {
+  padding-top: 5%;
+  font-weight: 700;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.sumo-image {
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.legaz-image {
+  width: 35%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.c-image {
+  max-width: 75%;
+  border-radius: 100%;
+  margin: 40px;
+}
+
+.s-image {
+  max-width: 75%;
+  border-radius: 100%;
+  margin-top: 40px;
+}
+
+.c1-image {
+  width: 35%;
+  border-radius: 100%;
+  margin-left: 230px;
+}
+
+.c2-image {
+  width: 35%;
+  border-radius: 100%;
+  margin-left: 2px;
+  margin-top: 50px;
+}
+
+.slide-image {
+  width: 50%;
+  margin: 50px;
+}
+
+.form-c {
+  margin: 0% 35%;
+}
+
+#follow {
+  text-align: center;
+  background-color: #8f8f8f;
+  padding: 5% 15% 5%;
+  color: #fff;
+}
+
+#media {
+  text-align: center;
+  padding: 5% 15% 5%;
+  color: #8f8f8f;
+}
+
+.social-media {
+  padding-bottom: 3%;
+}
+
+/* Footer */
+.left-container {
+  padding-left: 0;
+  padding-right: 5%
+}
+
+.adress {
+  padding: 0;
+}
+
+.middle-container {
+  text-align: right;
+  padding-top: 0;
+}
+
+.right-container {
+  padding: 3;
+  padding-top: 5.5%;
+  text-align: center;
+}
+
+/* Responsive Gallery Page */
+.rb-title {
+  padding: 3% 15% 5%;
+  text-align: center;
+}
+
+.rb-content {
+  text-align: center;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 10px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.box-content {
+  padding: 5%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#slogan {
+  text-align: center;
+  background-color: #8f8f8f;
+  padding: 5% 20% 5%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
